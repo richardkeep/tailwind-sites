@@ -14,7 +14,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    echo '_bla_';
+    return '_bla_';
 });
 
 Route::get('/tailwind-1', function () {
